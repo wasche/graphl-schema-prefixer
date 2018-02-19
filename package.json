@@ -1,0 +1,38 @@
+{
+  "name": "graphql-schema-tools",
+  "version": "1.0.0",
+  "description": "Tools for working with graphql schemas",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js .",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "graphql",
+    "schema",
+    "gql",
+    "tools",
+    "prefix",
+    "stitch"
+  ],
+  "author": "Wil Asche <wil@asche.us>",
+  "license": "CC-BY-1.0",
+  "peerDependencies": {
+    "graphql": "^0.13.1",
+    "graphql-tools": "^2.21.0"
+  },
+  "devDependencies": {
+    "@std/esm": "^0.21.7",
+    "babel-eslint": "^8.2.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.18.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-graphql": "^1.5.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^5.0.1"
+  }
+}
