@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-global-assign
 require = require('@std/esm')(module, {'esm': 'js'})
-const prefixTypeDefs = require('../prefix/typeDefs').default
+const prefixTypeDefs = require('..').prefixTypeDefs
 const assert = require('chai').assert
 
 const typeDefs = `
