@@ -1,9 +1,9 @@
 {
-  "name": "graphql-schema-tools",
+  "name": "graphql-schema-prefixer",
   "version": "0.1.0",
-  "description": "Tools for working with graphql schemas",
-  "repository": "wasche/graphl-schema-tools",
-  "bugs": "https://github.com/wasche/graphl-schema-tools",
+  "description": "GraphQL schema prefixer and stitcher",
+  "repository": "wasche/graphl-schema-prefixer",
+  "bugs": "https://github.com/wasche/graphl-schema-prefixer",
   "main": "index.mjs",
   "scripts": {
     "lint": "./node_modules/eslint/bin/eslint.js .",
